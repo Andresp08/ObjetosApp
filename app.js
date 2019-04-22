@@ -12,7 +12,7 @@ var persona = {
 var obj = persona;
 
 function saludo() {
-    dato = prompt('Introduce el campo que deseas ver:  \n nombre \n apellidos \n edad  \nbasicaPrimaria \nbasicaSecundaria \n mediaVocacional \nprofesion \npais \nciudad \nbarrio \nnombreEdificio \nnoPiso');
+    dato = prompt('Introduce el campo que deseas ver:  \nnombre \napellidos \nedad   \nprofesion \npais');
 
     if (dato == null || dato == "") {
         mensaje = 'Debes introducir un dato, cancelaste el programa';
@@ -24,5 +24,3 @@ function saludo() {
 
 var boton = document.getElementById('boton');
 boton.addEventListener('click', saludo);
-
-
